@@ -1,0 +1,52 @@
+#featured{
+  width:68%:
+  float:left;
+  margin-right: 2%;
+}
+
+#issued{
+  width: 30%;
+  float:left;
+}
+
+main{
+  overflow: : auto;
+}
+
+#featured img{
+  /*decendant call: image inside an id: featured*/
+  float:left;
+  margin-right: 1em;
+}
+
+footer li{
+  /*list inside any footer*/
+  width:25%;
+  float: left;
+  /*get rid of bullet*/
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  pading: 0;
+}
+
+nav li{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  text-align: center;
+}
+
+header, footer{
+  background: #eeeeee;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
